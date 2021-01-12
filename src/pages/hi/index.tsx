@@ -5,9 +5,8 @@ import { history } from 'umi';
 export default () => {
   return (
     <div>
-      <h1 className={styles.title}>micro app a</h1>
+      <h1 className={styles.title}>micro app a hi page</h1>
       <button onClick={() => history.goBack()}>go back</button>
-      <button onClick={() => history.push('/hi')}>go hi page</button>
     </div>
   );
 };
